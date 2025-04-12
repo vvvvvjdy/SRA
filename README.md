@@ -10,6 +10,10 @@
   <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-256x256?p=representation-alignment-for-generation">
     <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/representation-alignment-for-generation/image-generation-on-imagenet-256x256" alt="PWC">
   </a>
+  &nbsp;
+  <a href="https://www.xiaohongshu.com/user/profile/60195f8f0000000001009cc6">
+    <img src="https://img.shields.io/badge/Xiaohongshu(RedNote)-Profile-red" alt="RedNote Profile">
+  </a>
 </p>
 
 
