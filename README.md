@@ -12,7 +12,7 @@
   </a>
   &nbsp;
   <a href="https://www.xiaohongshu.com/user/profile/60195f8f0000000001009cc6">
-    <img src="https://img.shields.io/badge/Xiaohongshu(RedNote)-Profile-red" alt="RedNote Profile">
+    <img src="https://img.shields.io/badge/Xiaohongshu(RedNote) Profile-Dy Jiang-red" alt="RedNote Profile">
   </a>
 </p>
 
