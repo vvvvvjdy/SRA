@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 
 Currently, we provide experiments for [ImageNet](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data). You can place the data that you want and can specify it via `--data-dir` arguments in training scripts. \
-Note that we preprocess the data for faster training. Please refer to [preprocessing guide](https://github.com/sihyun-yu/REPA/tree/master/preprocessing) for detailed guidance.
+Note that we preprocess the data for faster training. Please refer to [preprocessing guide](https://github.com/vvvvvjdy/SRA/tree/main/preprocessing) for detailed guidance.
 
 ### 🔥5.Training
 Here we provide the training code for SiTs and DiTs.
