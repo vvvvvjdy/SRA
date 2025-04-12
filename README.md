@@ -29,7 +29,7 @@
 
 - **Improved Performance**. SRA accelerates training and improves generation performance for both DiTs and SiTs.
 
-### 🏡3.Environment setup
+### 🏡3.Environment Setup
 
 ```bash
 conda create -n sra python=3.12 -y
