@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 export MASTER_PORT=19998
 export CUDA_VISIBLE_DEVICES=0,1,2,3,
 
@@ -20,7 +19,6 @@ CKPT=[Your checkpoint path]
 
 python -m torch.distributed.launch \
     --nproc_per_node=4 \
-    --master_port=$MASTER_PORT \
     generate.py \
     --num-fid-samples $NUM_FID_SAMPLES \
     --per-proc-batch-size $PER_PROC_BATCH_SIZE \
