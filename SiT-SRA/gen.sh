@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 export MASTER_PORT=19990
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 
