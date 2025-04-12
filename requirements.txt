@@ -1,0 +1,11 @@
+torch
+torchvision
+diffusers
+transformers
+timm
+tqdm
+accelerate
+requests
+ftfy
+regex
+matplotlib
