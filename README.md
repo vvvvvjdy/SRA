@@ -139,7 +139,7 @@ This code is mainly built upon [REPA](https://github.com/sihyun-yu/REPA), [DiT](
 Thanks for their solid work!
 
 
-### 💜9.Citation
+### 🌺9.Citation
 If you find SRA useful, please kindly cite our paper:
 ```bibtex
 @article{yu2024repa,
