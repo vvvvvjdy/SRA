@@ -7,8 +7,8 @@
     <img src="https://img.shields.io/badge/arXiv%20paper-2410.06940-b31b1b.svg" alt="arXiv Paper">
   </a>
   &nbsp;
-  <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-256x256?p=representation-alignment-for-generation">
-    <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/representation-alignment-for-generation/image-generation-on-imagenet-256x256" alt="PWC">
+  <a href="to-be-uploaded">
+    <img src="https://img.shields.io/endpoint.svg?url=to-be-uploaded" alt="PWC">
   </a>
   &nbsp;
   <a href="https://www.xiaohongshu.com/user/profile/60195f8f0000000001009cc6">
@@ -17,7 +17,7 @@
 </p>
 
 
-<h3 align="center">[<a href="https://sihyun.me/REPA">project page</a>]&emsp;[<a href="http://arxiv.org/abs/2410.06940">paper</a>]</h3>
+<h3 align="center">[<a href="https://vvvvvjdy.github.io/sra/">project page</a>]&emsp;[<a href="http://arxiv.org/abs/2410.06940">paper</a>]</h3>
 <br>
 
 ### 💥1.News
