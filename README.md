@@ -142,11 +142,11 @@ Thanks for their solid work!
 ### 🌺9.Citation
 If you find SRA useful, please kindly cite our paper:
 ```bibtex
-@article{yu2024repa,
-  title={Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think},
-  author={Sihyun Yu and Sangkyung Kwak and Huiwon Jang and Jongheon Jeong and Jonathan Huang and Jinwoo Shin and Saining Xie},
-  year={2024},
-  journal={arXiv preprint arXiv:2410.06940},
+@article{jiang2025sra,
+  title={No Other Representation Component Is Needed: Diffusion Transformers Can Provide Representation Guidance by Themselves},
+  author={Jiang, Dengyang and Wang, Mengmeng and Li, Liuzhuozheng and Zhang, Lei and Wang, Haoyu and Wei, Wei and Zhang, Yanning and Dai, Guang and Wang, Jingdong},
+  journal={arXiv preprint arXiv:2505.xxxxx},
+  year={2025}
 }
 ```
 
