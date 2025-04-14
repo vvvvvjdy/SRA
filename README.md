@@ -54,7 +54,6 @@ Here we provide the training code for SiTs and DiTs.
 ```bash
 cd SiT-SRA
 accelerate launch --config_file configs/default.yaml train.py \
-  --allow-tf32 \
   --mixed-precision="fp16" \
   --seed=0 \
   --path-type="linear" \
@@ -86,7 +85,6 @@ Then this script will automatically create the folder in `exps` to save logs,sam
 ```bash
 cd DiT-SRA
 accelerate launch --config_file configs/default.yaml train.py \
-  --allow-tf32 \
   --mixed-precision="fp16" \
   --seed=0 \
   --resolution=256 \
