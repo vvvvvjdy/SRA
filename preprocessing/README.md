@@ -1,7 +1,7 @@
-<h1 align="center"> Preprocessing Guide
+<h1 align="center"> 🪽Preprocessing Guide
 </h1>
 
-#### Dataset download
+#### Dataset preprocessing
 
 We use based code provided in [edm2](https://github.com/NVlabs/edm2) to preprocess the data for faster training. We follow [REPA](https://github.com/sihyun-yu/REPA/tree/main/preprocessing) to  make a several edits: (1) we removed unncessary parts except preprocessing because this code is only used for preprocessing, (2) we use [-1, 1] range for an input to the stable diffusion VAE (similar to DiT or SiT) unlike edm2 that uses [0, 1] range, and (3) we consider preprocessing to 256x256 resolution (or 512x512 resolution).
 
@@ -23,6 +23,6 @@ Here,`YOUR_DOWNLOAD_PATH` is the directory that you downloaded the dataset, and 
 Note that the choice of the VAE version ('ft-mse' and 'ft-ema') here does not influence the final performance because only the
 decoder weights  are different.
 
-## Acknowledgement
+## 🤝🏻Acknowledgement
 
-This code is mainly built upon [edm2](https://github.com/NVlabs/edm2) and [REPA](https://github.com/sihyun-yu/REPA/tree/main/preprocessing) repositories.
+This code is mainly built upon [edm2](https://github.com/NVlabs/edm2) and [REPA](https://github.com/sihyun-yu/REPA/tree/main/preprocessing) repositories. Thanks for their solid work!
