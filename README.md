@@ -93,10 +93,10 @@ accelerate launch --config_file configs/default.yaml train.py \
   --batch-size=32 \
   --model="DiT-XL/2" \
   --block-out-s=8 \
-  --block-out-t=20 \
+  --block-out-t=16 \
   --t-max=0.2 \
   --output-dir="exps" \
-  --exp-name="ditxl-ab820-t0.2-res256" \
+  --exp-name="ditxl-ab816-t0.2-res256" \
   --data-dir=[YOUR_DATA_PATH]
 ```
 
