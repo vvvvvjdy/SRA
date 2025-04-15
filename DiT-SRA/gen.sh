@@ -1,6 +1,6 @@
 #!/bin/bash
 export MASTER_PORT=19998
-export CUDA_VISIBLE_DEVICES=0,1,2,3,
+export CUDA_VISIBLE_DEVICES=0,1,2,3
 
 MODEL="DiT-XL/2"
 SAMPLE_DIR=[Base directory to save images]
