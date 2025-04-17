@@ -111,9 +111,9 @@ Here we provide the generating code for SiTs and DiTs to get the samples for eva
 
 You can download our pretrained model here:
 
-| Model                   | Image Resolution | FID-50K | Inception Score | Epochs | 
-|-------------------------|------------------|---------|-----------------|--------|
-| [SiT-XL/2 + SRA](to do) | 256x256          | 2.06    | 270.27         | 800    |
+| Model                   | Image Resolution | Epochs  | FID-50K | Inception Score |
+|-------------------------|------------------| --------|---------|-----------------|
+| [SiT-XL/2 + SRA](to do) | 256x256          |  800    | 2.06    |   270.27        |
 ```bash
 cd SiT-SRA
 bash gen.sh
