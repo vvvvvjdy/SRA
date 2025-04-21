@@ -3,11 +3,10 @@ export MASTER_PORT=19998
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 
 MODEL="DiT-XL/2"
-SAMPLE_DIR=[Base directory to save images]
 PER_PROC_BATCH_SIZE=64
 NUM_FID_SAMPLES=50000
 NUM_STEPS=250
-# cfg_scale=1.0 (without CFG),by default it set to 1.5
+# cfg_scale=1.0 (without CFG),by default it set to 1.0
 CFG_SCALE=1.0
 RESOLUTION=256
 VAE="ema"
