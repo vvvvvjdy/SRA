@@ -6,11 +6,9 @@
   <a href="https://arxiv.org/abs/2410.06940">
     <img src="https://img.shields.io/badge/arXiv%20paper-2410.06940-b31b1b.svg" alt="arXiv Paper">
   </a>
-  &nbsp;
   <a href="to-be-uploaded">
     <img src="https://img.shields.io/endpoint.svg?url=to-be-uploaded" alt="PWC">
   </a>
-  &nbsp;
   <a href="https://www.xiaohongshu.com/user/profile/60195f8f0000000001009cc6">
     <img src="https://img.shields.io/badge/Xiaohongshu(RedNote) Profile-Dy Jiang-red" alt="RedNote Profile">
   </a>
