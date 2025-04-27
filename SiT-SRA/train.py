@@ -362,7 +362,7 @@ def main(args):
                 }
                 checkpoint_path = f"{checkpoint_dir}/epoch-{epoch}.pt"
                 torch.save(checkpoint, checkpoint_path)
-                logger.info(f"Saved checkpoint to {checkpoint}")
+                logger.info(f"Saved checkpoint to {checkpoint_path}")
 
 
 
