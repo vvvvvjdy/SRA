@@ -21,7 +21,7 @@
 ![SiT+SRA samples](selected_samples.png)
 
 ### 💥1.News
-- **[2025.05.06]** We have released the paper and code for SRA! 
+- **[2025.05.06]** We have released the paper and code of SRA! 
 
 
 ### 🌟2.Highlight
@@ -113,7 +113,7 @@ You can download our pretrained model here:
 
 | Model                   | Image Resolution | Epochs  | FID-50K | Inception Score |
 |-------------------------|------------------| --------|---------|-----------------|
-| [SiT-XL/2 + SRA](to do) | 256x256          |  800    | 2.06    |   270.27        |
+| [SiT-XL/2 + SRA](https://huggingface.co/DyJiang/SRA/resolve/main/sitxl-sra-res256-ep800.pt) | 256x256          |  800    | 1.58    |   311.4        |
 ```bash
 cd SiT-SRA
 bash gen.sh
