@@ -5,11 +5,9 @@
 # LICENSE file in the root directory of this source tree.
 
 """
-Samples a large number of images from a pre-trained SiT model using DDP.
+Samples a large number of images from a pre-trained DiT model using DDP.
 Subsequently saves a .npz file that can be used to compute FID and other
 evaluation metrics via the ADM repo: https://github.com/openai/guided-diffusion/tree/main/evaluations
-
-For a simple single-GPU/CPU sampling script, see sample.py.
 """
 import os
 import torch
