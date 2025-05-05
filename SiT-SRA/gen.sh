@@ -1,5 +1,4 @@
 #!/bin/bash
-export CUDA_VISIBLE_DEVICES=0,1,2,3
 
 MODEL="SiT-XL/2"
 PER_PROC_BATCH_SIZE=64
@@ -20,7 +19,7 @@ CKPT=[Your checkpoint path]
 
 
 python -m torch.distributed.launch \
-    --nproc_per_node=4 \
+    --nproc_per_node=8 \
     generate.py \
     --num-fid-samples $NUM_FID_SAMPLES \
     --path-type $PATH_TYPE \
