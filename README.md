@@ -18,6 +18,8 @@
 <h3 align="center">[<a href="https://vvvvvjdy.github.io/sra/">project page</a>]&emsp;[<a href="http://arxiv.org/abs/2410.06940">paper</a>]</h3>
 <br>
 
+![SiT+SRA samples](selected_samples.png)
+
 ### 💥1.News
 - **[2025.05.06]** We have released the paper and code for SRA! 
 
