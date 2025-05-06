@@ -3,11 +3,11 @@
 </h1>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2410.06940">
-    <img src="https://img.shields.io/badge/arXiv%20paper-2410.06940-b31b1b.svg" alt="arXiv Paper">
+  <a href="https://arxiv.org/abs/2505.02831">
+    <img src="https://img.shields.io/badge/arXiv%20paper-2505.02831-b31b1b.svg" alt="arXiv Paper">
   </a>
-  <a href="to-be-uploaded">
-    <img src="https://img.shields.io/endpoint.svg?url=to-be-uploaded" alt="PWC">
+  <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-256x256?p=no-other-representation-component-is-needed">
+    <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-other-representation-component-is-needed/image-generation-on-imagenet-256x256" alt="PWC">
   </a>
   <a href="https://www.xiaohongshu.com/user/profile/60195f8f0000000001009cc6">
     <img src="https://img.shields.io/badge/Xiaohongshu(RedNote) Profile-Dy Jiang-red" alt="RedNote Profile">
@@ -15,7 +15,7 @@
 </p>
 
 
-<h3 align="center">[<a href="https://vvvvvjdy.github.io/sra/">project page</a>]&emsp;[<a href="http://arxiv.org/abs/2410.06940">paper</a>]</h3>
+<h3 align="center">[<a href="https://vvvvvjdy.github.io/sra/">project page</a>]&emsp;[<a href="http://arxiv.org/abs/2505.02831">paper</a>]</h3>
 <br>
 
 ![SiT+SRA samples](selected_samples.png)
@@ -143,7 +143,7 @@ If you find SRA useful, please kindly cite our paper:
 @article{jiang2025sra,
   title={No Other Representation Component Is Needed: Diffusion Transformers Can Provide Representation Guidance by Themselves},
   author={Jiang, Dengyang and Wang, Mengmeng and Li, Liuzhuozheng and Zhang, Lei and Wang, Haoyu and Wei, Wei and Zhang, Yanning and Dai, Guang and Wang, Jingdong},
-  journal={arXiv preprint arXiv:2505.xxxxx},
+  journal={arXiv preprint arXiv:2505.02831},
   year={2025}
 }
 ```
