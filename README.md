@@ -15,7 +15,7 @@
 </p>
 
 
-<h3 align="center">[<a href="https://vvvvvjdy.github.io/sra/">project page</a>]&emsp;[<a href="http://arxiv.org/abs/2505.02831">paper</a>]</h3>
+<h3 align="center">[<a href="https://vvvvvjdy.github.io/sra/">project page</a>]&emsp;[<a href="https://arxiv.org/pdf/2505.02831">paper</a>]</h3>
 <br>
 
 ![SiT+SRA samples](selected_samples.png)
