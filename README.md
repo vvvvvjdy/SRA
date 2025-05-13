@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-other-representation-component-is-needed/image-generation-on-imagenet-256x256" alt="PWC">
   </a>
   <a href="https://www.xiaohongshu.com/user/profile/60195f8f0000000001009cc6">
-    <img src="https://img.shields.io/badge/Xiaohongshu(RedNote) Profile-Dy Jiang-red" alt="RedNote Profile">
+    <img src="https://img.shields.io/badge/Contact via Xiaohongshu(RedNote)-Dy Jiang-red" alt="RedNote Profile">
   </a>
 </p>
 
