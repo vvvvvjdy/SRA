@@ -5,9 +5,6 @@
   <a href="https://arxiv.org/abs/2505.02831">
     <img src="https://img.shields.io/badge/arXiv%20paper-2505.02831-b31b1b.svg" alt="arXiv Paper">
   </a>
-  <a href="https://paperswithcode.com/sota/image-generation-on-imagenet-256x256?p=no-other-representation-component-is-needed">
-    <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-other-representation-component-is-needed/image-generation-on-imagenet-256x256" alt="PWC">
-  </a>
   <a href="https://www.xiaohongshu.com/user/profile/60195f8f0000000001009cc6">
     <img src="https://img.shields.io/badge/Contact via Xiaohongshu(RedNote)-Dy Jiang-red" alt="RedNote Profile">
   </a>
