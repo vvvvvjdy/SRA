@@ -1,5 +1,4 @@
-<h1 align="center">🎭SRA  <br>No Other Representation Component Is Needed:  <br>Diffusion Transformers Can Provide Representation
-            Guidance by Themselves
+<h1 align="center">🎭SRA  <br> Self-Representation Alignment for Diffusion Transformers<br>
 </h1>
 
 <p align="center">
