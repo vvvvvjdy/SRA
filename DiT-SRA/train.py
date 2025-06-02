@@ -252,7 +252,7 @@ def main(args):
                 if args.resolution == 256:
                     align_loss_mean = align_loss.mean() * 0.4 * (0.1 ** (((epoch - 149) / 1000 + 1) if epoch > 149 else 1))
                 else:
-                    align_loss_mean = align_loss.mean() * 0.4 * (0.1 ** (((epoch - 99) / 500 + 1) if epoch > 99 else 1))
+                    align_loss_mean = align_loss.mean() * 0.4 * (0.1 ** (((epoch - 99) / 800 + 1) if epoch > 99 else 1))
 
                 # total loss
                 loss = gen_loss_mean + align_loss_mean
