@@ -9,3 +9,4 @@ requests
 ftfy
 regex
 matplotlib
+einops
