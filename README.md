@@ -17,6 +17,7 @@
 ![SiT+SRA samples](selected_samples.png)
 
 ### 💥1.News
+- **[2025.06.14]** We updated the results and checkpoint of SiT+SRA on ImageNet 512x512!  
 - **[2025.05.06]** We have released the paper and code of SRA! 
 
 
@@ -109,6 +110,7 @@ You can download our pretrained model here:
 
 | Model                   | Image Resolution | Epochs  | FID-50K | Inception Score |
 |-------------------------|------------------| --------|---------|-----------------|
+| [SiT-XL/2 + SRA](https://huggingface.co/DyJiang/SRA/resolve/main/sitxl-sra-res512-ep400.pt) | 512x512          |  400    | 2.07    |   302.2        |
 | [SiT-XL/2 + SRA](https://huggingface.co/DyJiang/SRA/resolve/main/sitxl-sra-res256-ep800.pt) | 256x256          |  800    | 1.58    |   311.4        |
 ```bash
 cd SiT-SRA
@@ -117,6 +119,8 @@ bash gen.sh
 Note that there are several options in `gen.sh` file that you need to complete:
 - `SAMPLE_DIR`: Base directory to save the generated images and .npz file
 - `CKPT`: Checkpoint path (This can also be your downloaded local file of the ckpt file we provide above)
+
+And for ImageNet 512x512 with CFG, we use the guidance scale of 2.5 with the guidance interval, which is a little bit different from  hyperparameters used in ImageNet 256x256.
 
 ##### 6.2.Sampling with DiT + SRA
 ```bash
