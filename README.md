@@ -27,7 +27,7 @@
 -  **Diffusion transformer itself to provide representation guidance:** We assume the unique  discriminative process of diffusion transformer makes it possible to provide the guidance without introducing extraneous representation component.
 
 - **Self-Representation Alignment (SRA):** SRA aligns the output 
-         latent representation of the diffusion transformers in earlier layer with higher noise to that in later layer  with lower noise to achieve self-representation enhancement.
+         latent representation of the diffusion transformers in earlier layer with higher noise to that in later layer  with lower noise to achieve self-representation alignment.
 
 - **Improved Performance**. SRA accelerates training and improves generation performance for both DiTs and SiTs.
 
