@@ -17,6 +17,7 @@
 ![SiT+SRA samples](selected_samples.png)
 
 ### 💥1.News
+- **[2025.07.11]** We updated the PCA visualization code in our paper!  
 - **[2025.06.14]** We updated the results and checkpoint of SiT+SRA on ImageNet 512x512!  
 - **[2025.05.06]** We have released the paper and code of SRA! 
 
@@ -127,17 +128,30 @@ And for ImageNet 512x512 with CFG, we use the guidance scale of 2.5 with the gui
 cd DiT-SRA
 bash gen.sh
 ```
-### 📣7.Note
+### 🔬7.PCA Visualization
+We provide the PCA vis code of SiTs (256x256)  to help to get the similar visualization results as shown in our paper.
+```bash
+cd pca-vis
+python main_pca.py \
+--ckpt=[YOUR_CKPT_PATH] \
+--baseline=False \
+```
+You need to complete the following options (others in main_pca.py can also be changed):
+- `--ckpt`: Checkpoint path (This can also be your downloaded local file of the ckpt file we provide above)
+- `--baseline`: Whether to use baseline, set it to 'False' if you do not use the ckpt file provided in SiT repo
+
+
+### 📣8.Note
 
 It's possible that this code may not accurately replicate the results outlined in the paper due to potential human errors during the preparation and cleaning of the code for release as well as the difference of the hardware facility. If you encounter any difficulties in reproducing our findings, please don't hesitate to inform us. 
 
-### 🤝🏻8.Acknowledgement
+### 🤝🏻9.Acknowledgement
 
 This code is mainly built upon [REPA](https://github.com/sihyun-yu/REPA), [DiT](https://github.com/facebookresearch/DiT), [SiT](https://github.com/willisma/SiT) repositories. 
 Thanks for their solid work!
 
 
-### 🌺9.Citation
+### 🌺10.Citation
 If you find SRA useful, please kindly cite our paper:
 ```bibtex
 @article{jiang2025sra,
