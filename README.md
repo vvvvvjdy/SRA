@@ -156,7 +156,7 @@ If you find SRA useful, please kindly cite our paper:
 ```bibtex
 @article{jiang2025sra,
   title={No Other Representation Component Is Needed: Diffusion Transformers Can Provide Representation Guidance by Themselves},
-  author={Jiang, Dengyang and Wang, Mengmeng and Li, Liuzhuozheng and Zhang, Lei and Wang, Haoyu and Wei, Wei and Zhang, Yanning and Dai, Guang and Wang, Jingdong},
+  author={Jiang, Dengyang and Wang, Mengmeng and Li, Liuzhuozheng and Zhang, Lei and Wang, Haoyu and Wei, Wei and Dai, Guang and Zhang, Yanning and Wang, Jingdong},
   journal={arXiv preprint arXiv:2505.02831},
   year={2025}
 }
