@@ -17,6 +17,7 @@
 ![SiT+SRA samples](selected_samples.png)
 
 ### 💥1.News
+- **[2026.01.26]** SRA was finnaly accepted by ICLR 2026!
 - **[2025.07.11]** We updated the PCA visualization code in our paper!  
 - **[2025.06.14]** We updated the results and checkpoint of SiT+SRA on ImageNet 512x512!  
 - **[2025.05.06]** We have released the paper and code of SRA! 
