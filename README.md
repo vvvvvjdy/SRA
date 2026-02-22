@@ -17,7 +17,8 @@
 ![SiT+SRA samples](selected_samples.png)
 
 ### 💥1.News
-- **[2026.01.26]** SRA was finnaly accepted by ICLR 2026!
+- **[2026.02.23]** VAE-REPA was accepted by CVPR 2026! No external encoder like REPA, also no external foward pass like SRA. See more [here].(https://arxiv.org/abs/2601.17830)
+- **[2026.01.26]** SRA was accepted by ICLR 2026!
 - **[2025.07.11]** We updated the PCA visualization code in our paper!  
 - **[2025.06.14]** We updated the results and checkpoint of SiT+SRA on ImageNet 512x512!  
 - **[2025.05.06]** We have released the paper and code of SRA! 
