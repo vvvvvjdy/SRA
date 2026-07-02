@@ -12,7 +12,7 @@
 </p>
 
 
-## Environment Setup
+## 🏡 Environment Setup
 
 ```bash
 conda create -n sra python=3.12 -y
@@ -26,7 +26,7 @@ See [Here](https://github.com/vvvvvjdy/SRA/tree/main/preprocessing) for detailed
 
 
 
-## Training
+## 🔥 Training
 
 ```bash
 bash scripts/train.sh
@@ -60,7 +60,7 @@ Important training options:
 - `--teacher-mask`: applies the mixed-token mask to the teacher branch. (default: True)
 - `--use-alignment-loss`: enables the self-representation alignment loss. (default: True)
 
-## Evaluation
+## 🌠 Evaluation
 
 Generate png samples and convert them to `.npz`:
 
@@ -78,15 +78,15 @@ The resulting `.npz` file can be evaluated with the [ADM evaluation](https://git
 
 
 
-## Notes
+## 📣 Notes
 
 It's possible that this code may not accurately replicate the results outlined in the paper due to potential human errors during the preparation and cleaning of the code for release as well as the difference of the hardware facility. If you encounter any difficulties in reproducing our findings, please don't hesitate to inform us. 
 
-## Acknowledgement
+## 🤝🏻 Acknowledgement
 
 This code is built on [SRA](https://github.com/vvvvvjdy/SRA). Thanks to the authors for their solid open-source work.
 
-## Citation
+## 🌺 Citation
 
 ```bibtex
 @article{sra_dts_as_2026,
