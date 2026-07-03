@@ -17,7 +17,7 @@
 ![SiT+SRA samples](selected_samples.png)
 
 ### 💥1.News
-- **[2026.07.03]**  We investigate the underlying mechanism behind the evolution from SRA to Self-Flow, showing that the methodological improvement from SRA to Self-Flow, as well as the resulting performance gain, mainly stems from data augmentation. Furthermore, we propose Attention Separation as an additional form of data augmentation, the experimental results also demonstrate its effectiveness. See more [here](https://arxiv.org/abs/2607.02508).
+- **[2026.07.03]**  We investigate the underlying mechanism behind the evolution from SRA to Self-Flow, showing that the methodological improvement from SRA to Self-Flow, as well as the resulting performance gain, mainly stems from data augmentation. Furthermore, we propose Attention Separation as an additional form of data augmentation, the experimental results also demonstrate its effectiveness. ([Paper](https://arxiv.org/abs/2607.02508) | [Code](https://github.com/vvvvvjdy/SRA/tree/main/SiT-SRA_DTS_AS))
 - **[2026.02.23]** SRA 2 was accepted by CVPR 2026! No external encoder like REPA, also no external foward pass like SRA. Achieving convergence acceleration at an extremely low cost. See more [here](https://arxiv.org/abs/2601.17830).
 - **[2026.01.26]** SRA was accepted by ICLR 2026!
 - **[2025.07.11]** We updated the PCA visualization code in our paper!  
