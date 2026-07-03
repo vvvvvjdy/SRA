@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://arxiv.org/abs/" target="_blank"><img src="https://img.shields.io/badge/Paper-b5212f.svg?logo=arxiv" height="21px"></a>
+<a href="https://arxiv.org/abs/2607.02508" target="_blank"><img src="https://img.shields.io/badge/Paper-b5212f.svg?logo=arxiv" height="21px"></a>
 
 </div>
 
@@ -89,10 +89,10 @@ This code is built on [SRA](https://github.com/vvvvvjdy/SRA). Thanks to the auth
 ## 🌺 Citation
 
 ```bibtex
-@article{sra_dts_as_2026,
+@article{jiang2026sratosf,
   title={From SRA to Self-Flow: Data Augmentation or Self-Supervision?},
-  author={},
-  journal={arXiv preprint arXiv:},
+  author={Jiang, Dengyang and Wang, Mengmeng and Yang, Harry and Wang, Jingdong},
+  journal={arXiv preprint arXiv:2607.02508},
   year={2026}
 }
 ```
