@@ -426,9 +426,9 @@ def parse_args(input_args=None):
     parser.add_argument("--num-workers", type=int, default=8)
 
     # loss
-    parser.add_argument("--loss-type", type=str, default="sml1", choices=["sml1", "l2", "l1"])
+    parser.add_argument("--loss-type", type=str, default="sml1", choices=["sml1", "l2", "l1","cosine"])
     parser.add_argument("--cfg-prob", type=float, default=0.1, help="use class-free guidance if > 0")
-    parser.add_argument("--path-type", type=str, default="linear", choices=["linear", "cosine"])
+    parser.add_argument("--path-type", type=str, default="linear", choices=["linear", "cos"])
     parser.add_argument("--prediction", type=str, default="v", choices=["v"])  # currently we only support v-prediction
     parser.add_argument("--weighting", default="uniform", type=str, help="Max gradient norm.")
     parser.add_argument("--block-out-s", type=int, default=4)
