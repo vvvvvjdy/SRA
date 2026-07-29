@@ -317,9 +317,15 @@ def main(args):
 
                 # we dynamically adjust the weight of align loss to make two losses at the same scale.
                 if args.resolution == 256:
-                    align_loss_mean = align_loss.mean() * 2 * (0.1 ** (((epoch - 149) / 1000 + 1) if epoch > 149 else 1))
+                    if args.loss_type == "cos":
+                         align_loss_mean = align_loss.mean() * 0.5
+                    else:
+                        align_loss_mean = align_loss.mean() * 2 * (0.1 ** (((epoch - 149) / 1000 + 1) if epoch > 149 else 1))
                 else:
-                    align_loss_mean = align_loss.mean() * 2 * (0.1 ** (((epoch - 99) / 800 + 1) if epoch > 99 else 1))
+                    if args.loss_type == "cos":
+                         align_loss_mean = align_loss.mean() * 0.5
+                    else:
+                        align_loss_mean = align_loss.mean() * 2 * (0.1 ** (((epoch - 99) / 800 + 1) if epoch > 99 else 1))
 
                 # total loss
                 loss = gen_loss_mean + align_loss_mean
@@ -426,7 +432,7 @@ def parse_args(input_args=None):
     parser.add_argument("--num-workers", type=int, default=8)
 
     # loss
-    parser.add_argument("--loss-type", type=str, default="sml1", choices=["sml1", "l2", "l1","cosine"])
+    parser.add_argument("--loss-type", type=str, default="cos", choices=["sml1", "l2", "l1","cos"]) # legacy sml1 (only used for reproducing paper results, but suggest use cosine sim loss)
     parser.add_argument("--cfg-prob", type=float, default=0.1, help="use class-free guidance if > 0")
     parser.add_argument("--path-type", type=str, default="linear", choices=["linear", "cos"])
     parser.add_argument("--prediction", type=str, default="v", choices=["v"])  # currently we only support v-prediction
