@@ -146,7 +146,8 @@ You need to complete the following options (others in main_pca.py can also be ch
 
 ### 📣8.Note
 
-It's possible that this code may not accurately replicate the results outlined in the paper due to potential human errors during the preparation and cleaning of the code for release as well as the difference of the hardware facility. If you encounter any difficulties in reproducing our findings, please don't hesitate to inform us. 
+1. In the first version of SRA and the SRA paper, we used Smooth-L1 loss without imposing any constraint on feature norms, which led to an increase in loss values during later training stages. We addressed this by introducing a dynamic weighting coefficient, but this approach is not elegant. A better solution is to use cosine similarity instead.
+2. It's possible that this code may not accurately replicate the results outlined in the paper due to potential human errors during the preparation and cleaning of the code for release as well as the difference of the hardware facility. If you encounter any difficulties in reproducing our findings, please don't hesitate to inform us. 
 
 ### 🤝🏻9.Acknowledgement
 
