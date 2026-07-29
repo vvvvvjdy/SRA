@@ -18,6 +18,8 @@ class Simpleloss(nn.Module):
             align_loss = F.mse_loss(a, b)
         elif loss_type == "l1":
             align_loss = F.l1_loss(a, b)
+        elif loss_type == "cos":
+            align_loss = 1 - F.cosine_similarity(a, b)
         else:
             raise NotImplementedError()
         return align_loss
